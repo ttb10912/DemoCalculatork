@@ -19,11 +19,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
     
-    override func updateViewConstraints() {
-        super.updateViewConstraints()
-        
-        updateViewConstraints()
-    }
+    
     func updateContrain(){
         let scale = UIScreen.mainScreen().bounds.size.height / 667
         

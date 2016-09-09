@@ -14,6 +14,7 @@
 		4344ABE21D8255CA001842D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4344ABE01D8255CA001842D3 /* LaunchScreen.storyboard */; };
 		4344ABED1D8255CB001842D3 /* DemoCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4344ABEC1D8255CB001842D3 /* DemoCalculatorTests.swift */; };
 		4344ABF81D8255CB001842D3 /* DemoCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4344ABF71D8255CB001842D3 /* DemoCalculatorUITests.swift */; };
+		4344AC061D8274C4001842D3 /* OperatorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4344AC051D8274C4001842D3 /* OperatorButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		4344ABF31D8255CB001842D3 /* DemoCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4344ABF71D8255CB001842D3 /* DemoCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoCalculatorUITests.swift; sourceTree = "<group>"; };
 		4344ABF91D8255CB001842D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4344AC051D8274C4001842D3 /* OperatorButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperatorButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				4344ABD71D8255CA001842D3 /* AppDelegate.swift */,
 				4344ABD91D8255CA001842D3 /* ViewController.swift */,
+				4344AC051D8274C4001842D3 /* OperatorButton.swift */,
 				4344ABDB1D8255CA001842D3 /* Main.storyboard */,
 				4344ABDE1D8255CA001842D3 /* Assets.xcassets */,
 				4344ABE01D8255CA001842D3 /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4344ABDA1D8255CA001842D3 /* ViewController.swift in Sources */,
+				4344AC061D8274C4001842D3 /* OperatorButton.swift in Sources */,
 				4344ABD81D8255CA001842D3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
